@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h2>Sonia Mar</h2>
+        <h1>Sonia Mar</h1>
         <nav>
             <ul>
                 <li><a href="index.html">work</a></li>
@@ -27,28 +27,33 @@
             <h1>Hi, I'm Sonia!</h1>
             <h3>Designer, data scientist, and activist at Cornell University passionate about creating socially impactful technology.</h3>
             <h4>Currently designing at Hack4Impact Cornell.</h4>
-            <h3>View my work below <img id="downarrow" src="images/downarrow.svg" alt=""> <img id="downarrow" src="images/downarrow.svg" alt=""></h3>
+            <h3 class="button">View my work below <img class="downarrow filter-blue" src="images/downarrow.svg" alt=""> <img class="downarrow filter-blue" src="images/downarrow.svg" alt=""></h3>
         </section>
         <section id="projects">
-            <nav>
+            <div id="inner-nav">
                 <ul>
                     <li>UX</li>
                     <li>Data Science</li>
                 </ul>
-            </nav>
+            </div>
             
             <div class="project ux" id="edgi">
                 <a href="edgi.html">
-                    <h2>EDGI: Enhancing Access to Environmental Violation Data</h2>
-                    <h6>Product Design ~ User Research ~ Prototyping</h6>
-                    <h4>Designed a web app utilizing an interactive map to visualize EPA violation data by U.S. county</h4>
+                    <div id="edgi-text">
+                        <h2>EDGI: Enhancing Access to Environmental Violation Data</h2>
+                        <h6>Product Design ~ User Research ~ Prototyping</h6>
+                        <h4>Designed a web app utilizing an interactive map to visualize EPA violation data by U.S. county</h4>
+                    </div>
+                    <img id="edgi-thumbnail" src="images/Thumbnail.png" alt="Image of the project">
                 </a>
             </div>
             <div class="project data" id="countywealthmajor">
                 <a href="countywealthmajor.html">
-                    <h2>New York State County Wealth and College Major</h2>
-                    <h6>Data Visualization ~ Data Manipulation ~ Data Analysis</h6>
-                    <h4>Examining the relationship between college major and postgraduates' residential area wealth in New York State using Python and Jupyter Notebooks</h4>
+                    <div id="countywealthmajor-text">
+                        <h2>New York State County Wealth and College Major</h2>
+                        <h6>Data Visualization ~ Data Manipulation ~ Data Analysis</h6>
+                        <h4>Examining the relationship between college major and postgraduates' residential area wealth in New York State using Python and Jupyter Notebooks</h4>
+                    </div> 
                 </a>
             </div>
         </section>
