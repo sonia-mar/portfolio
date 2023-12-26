@@ -87,6 +87,7 @@ button {
     flex-direction: row;
     gap: 10px;
     font-weight: bold;
+    font-family: 'Futura', 'Verdana', 'Helvetica', sans-serif;
 }
 
 #arrows {
@@ -193,7 +194,8 @@ a, a:hover, a:visited, a:active {
     gap: 60px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 36px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #about-intro h1 {
@@ -207,15 +209,34 @@ a, a:hover, a:visited, a:active {
 #experience-activities {
     margin-top: 48px;
     background-color: #FDFDFD;
-    padding: 200px;
+    padding: 100px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: row;
     gap: 60px;
     justify-content: center;
+    font-size: larger;
 }
 
 #experience-activities div {
     width: 450px;
+}
+
+#experience-activities div h2 {
+    margin-bottom: 30px;
+}
+
+#experience-activities div ul li {
+    list-style: none;
+}
+
+#experience-activities div ul li h4 {
+    margin-bottom: 0px;
+}
+
+#experience-activities div ul li p {
+    margin-top: 8px;
+    margin-bottom: 40px;
 }
 
 #superlatives {
