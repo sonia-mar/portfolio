@@ -30,11 +30,25 @@ header {
     padding-right: 350px;
 }
 
+#home-welcome h1 {
+    font-size: 300%;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#home-welcome #button-container {
+    padding: 20px;
+}
+
 button {
     color: #004483;
     border: 3px solid;
-    padding: 10px;
-    border-radius: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
     background: none;
     display: flex;
     flex-direction: row;
