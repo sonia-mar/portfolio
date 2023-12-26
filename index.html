@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1>Sonia Mar</h1>
+        <h2>Sonia Mar</h2>
         <nav>
             <ul>
                 <li><a href="index.html">work</a></li>
@@ -30,41 +30,46 @@
                 <button>View my work below <div id="arrows"><img class="downarrow filter-blue" src="images/downarrow.svg" alt=""> <img class="downarrow filter-blue" src="images/downarrow.svg" alt=""></div></button>
             </div>    
         </section>
-        <section id="projects">
+        <section id="project-section">
             <div id="inner-nav">
                 <ul>
+                    <li>All</li>
                     <li>UX</li>
                     <li>Data Science</li>
+                    <li>Other</li>
                 </ul>
             </div>
-            
-            <div class="project ux" id="edgi">
-                <a href="edgi.html">
+            <div id="projects">
+                <div class="project ux" id="edgi">
                     <div id="edgi-text">
-                        <h2>EDGI: Enhancing Access to Environmental Violation Data</h2>
-                        <h6>Product Design ~ User Research ~ Prototyping</h6>
-                        <h4>Designed a web app utilizing an interactive map to visualize EPA violation data by U.S. county</h4>
+                        <a href="edgi.html"><h2>EDGI: Enhancing Access to Environmental Violation Data</h2></a>
+                        <h6>Product Design | User Research | Prototyping</h6>
+                        <p>Designed a web app utilizing an interactive map to visualize EPA violation data by U.S. county</p>
                     </div>
-                    <img id="edgi-thumbnail" src="images/Thumbnail.png" alt="Image of the project">
-                </a>
-            </div>
-            <div class="project data" id="countywealthmajor">
-                <a href="countywealthmajor.html">
+                    <a href="edgi.html"><img id="edgi-thumbnail" src="images/Thumbnail.png" alt="Image of the project"></a>                   
+                </div>
+                <div class="project data" id="countywealthmajor">
                     <div id="countywealthmajor-text">
-                        <h2>New York State County Wealth and College Major</h2>
-                        <h6>Data Visualization ~ Data Manipulation ~ Data Analysis</h6>
-                        <h4>Examining the relationship between college major and postgraduates' residential area wealth in New York State using Python and Jupyter Notebooks</h4>
-                    </div> 
-                </a>
+                        <a href="countywealthmajor.html"><h2>New York State County Wealth and College Major</h2></a>
+                        <h6>Data Visualization | Data Manipulation | Data Analysis</h6>
+                        <p>Examining the relationship between college major and postgraduates' residential area wealth in New York State using Python and Jupyter Notebooks</p>
+                    </div>
+                    <a href="countywealthmajor.html"><img id="county-thumbnail" src="images/cornell.png" alt="Image of the project"></a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <h3>Connect with me: reach out to sm2478@cornell.edu!</h3>
-        <h5><a href="https://www.linkedin.com/in/mar-sonia116/">LinkedIn</a></h5>
-        <h5><a href="https://medium.com/@sm2478">Medium</a></h5>
-        <h5><a href="mailto:sm2478@cornell.edu">Email</a></h5>
+        <div id="footer-info">
+            <h5>Created by Sonia Mar &#169;</h5>
+            <div id="links">
+                <h5><a href="https://www.linkedin.com/in/mar-sonia116/">LinkedIn</a></h5>
+                <h5><a href="https://medium.com/@sm2478">Medium</a></h5>
+                <h5><a href="mailto:sm2478@cornell.edu">Email</a></h5>
+            </div>
+        </div>
     </footer>
 
 </body>
