@@ -3,5 +3,13 @@ html {
 }
 
 body {
-    background-color: #E2EFFF;
+    background-color: #e2efff; 
+    margin: 0px;
+    color: #004483;
+    font-family: sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
 }
