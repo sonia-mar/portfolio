@@ -188,8 +188,16 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 36px;
+}
+
+#about-intro h1 {
+    font-size: 180%;
+}
+
+#collage {
+    max-width: 550px;
 }
