@@ -1,4 +1,10 @@
 /* Wide view */
+
+@font-face { 
+	font-family: "Paytone One"; 
+	src: url('PaytoneOne.ttf'); 
+}
+
 html {
     background-color: #e1e1e1;
 }
@@ -7,7 +13,7 @@ body {
     background-color: #e2efff; 
     margin: 0px;
     color: #004483;
-    font-family: sans-serif;
+    font-family: 'Futura', 'Verdana', 'Helvetica', sans-serif;
 }
 
 header {
@@ -21,4 +27,8 @@ nav ul {
     flex-direction: row;
     gap: 20px;
     list-style: none;
+}
+
+h1 {
+    font-family: "Paytone One", serif;
 }
