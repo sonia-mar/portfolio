@@ -20,8 +20,38 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 140%;
+    align-items: center;
+}
+
+footer {
+    margin-top: 32px;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 32px;
+}
+
+#footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-info #links {
+    display: flex; 
+    flex-direction: row;
+    gap: 40px;
+}
+
+h1 {
+    font-family: "Paytone One", serif;
+}
+
+h2 {
+    font-family: "Paytone One", serif;
 }
 
 /* HOME PAGE */
@@ -150,34 +180,6 @@ a, a:hover, a:visited, a:active {
     filter: invert(17%) sepia(26%) saturate(6905%) hue-rotate(195deg) brightness(92%) contrast(101%);
 }
 
-h1 {
-    font-family: "Paytone One", serif;
-}
-
-h2 {
-    font-family: "Paytone One", serif;
-}
-
-footer {
-    margin-top: 32px;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 32px;
-}
-
-#footer-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#footer-info #links {
-    display: flex; 
-    flex-direction: row;
-    gap: 40px;
-}
-
 /* ABOUT PAGE */
 
 #profile {
@@ -196,6 +198,50 @@ footer {
 
 #about-intro h1 {
     font-size: 180%;
+}
+
+#about-intro p {
+    font-size: larger;
+}
+
+#experience-activities {
+    margin-top: 48px;
+    background-color: #FDFDFD;
+    padding: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+}
+
+#experience-activities div {
+    width: 450px;
+}
+
+#superlatives {
+    background-color: #fdfdfd;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-size: larger;
+    align-items: center;
+}
+
+#superlatives h2 {
+    margin-top: 0px;
+}
+
+#superlatives ul li {
+    margin-top: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 #collage {
