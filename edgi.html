@@ -46,10 +46,81 @@
                 <p>Create an interactive map web app to display county-based Environmental Protection Act violation data for educators, students, journalists, and informed members of the public to easily digest.</p>
             </div>
         </section>
-        <section>
+        <section id="problem">
             <h2>The Problem</h2>
             <p>The EPA is supposed to perform routine checks on facilities throughout the US and penalize those who fail to meet environmental standards. However, many industries tend to commit more environmental violations than others. EDGI analyzes data from facilities in these industries to understand the extent of EPA violations.</p>
             <p>They do this by generating PDF “report cards” to depict environmental violations by US Congressional District. However, the data used is from outdated 2010 census data, displayed on PDFs that are difficult to understand, difficult to access, and difficult to navigate.</p>
+        </section>
+        <section id="solution">
+            <p>EDGI seeks to facilitate greater understanding and learning of environmental issues for educators, students, journalists, and informed members of the public by replacing their PDF report cards with an interactive, user-friendly data visualization platform displaying U.S. county-specific data.</p>
+            <p>Our goals were to implement the following:</p>
+            <ul>
+                <li>An interactive map with clickable and searchable states / counties, along with facility markers</li>
+                <li>A user guide that can be closed and reopened</li>
+                <li>Clicking a county displays county-specific data figures and associated explanations</li>
+                <li>An additional information section with an anchor scroll navigation</li>
+            </ul>
+        </section>
+        <section id="user-insights">
+            <p>To better understand the issues with the current report cards and grasp user needs, we conducted user interviews with journalists, data scientists, and professors.</p>
+            <p>We gained the following key insights, which we organized into an affinity diagram below:</p>
+            <ul>
+                <li>Users want clear and easy access to information for understanding the data, whether it be metadata or contacting an expert.</li>
+                <li>Users find it helpful to see key points and explanations that supplement data visualizations.</li>
+                <li>Users (mainly journalists) want to be able to access and download raw data so their newsrooms can create their own visualizations.</li>
+            </ul>
+            <figure>
+                <img id="affinity-diagram" src="images/affinity diagram.png" alt="User research affinity diagram">
+                <figcaption>User Research Affinity Diagram</figcaption>
+            </figure>
+        </section>
+        <section id="competitors">
+            <p>Both myself and my partner designer had never designed an interactive map before, so identifying strengths and weaknesses in competitors was valuable to our design process.</p>
+            <p>We examined two data visualization web apps with interactive maps: Environmental Working Group and California Environmental Protection Agency.</p>
+            <div id="container">
+                <div id="imagecol1">
+                    <figure>
+                        <img id="ewg" src="images/ewg.png" alt="A screenshot of the Environmental Working Group's data visualization web app">
+                        <figcaption>Environmental Worrking Group</figcaption>
+                    </figure>
+                </div>
+                <div id="imagecol2">
+                    <figure>
+                        <img id="CalEPA" src="images/CalEPA.png" alt="A screenshot of CalEPA's data visualization web app">
+                        <figcaption>California Environmental Protection Agency</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <p>We identified the following strengths:</p>
+            <ul>
+                <li>User guide upon page landing that can be reopened</li>
+                <li>Search for a region (state or county)</li>
+                <li>Side panel with data and supplemental analysis</li>
+                <li>Clickable circles denote facilities and clusters of facilities</li>
+            </ul>
+            <p>we also noted the following weaknesses:</p>
+            <ul>
+                <li>Convoluted steps to access data</li>
+                <li>Repetitive information on every side panel</li>
+            </ul>
+        </section>
+        <section id="brainstorming-sketches">
+            <p>With our user and market insights in mind, we developed the information architecture.</p>
+            <p>While we organized the information in similar fashion to the current PDF report cards, notable changes are:</p>
+            <ul>
+                <li>The client notified us they wanted to prioritize the information under the sections: Grading, Highlights, District in Comparison, Recent Non-Compliance, and the additional information at the bottom of the PDF</li>
+                <li>We decided to implement a user guide to address the issues we discovered in our user interviews of user confusion when navigating data platforms and digesting data</li>
+                <li>The data reliability note was not present in all data sections of the PDF, but applied to all of the figures in the PDF, so we included it in all data-related groups in our architecture</li>
+            </ul>
+            <figure>
+                <img id="infoarch" src="images/infoarch.png" alt="The information architecture we devised for EDGI's web app">
+                <figcaption>EDGI County Data Reports Information Architecture</figcaption>
+            </figure>
+            <p>With this roadmap, we were able to begin exploring the general map display and interface:</p>
+            <figure>
+                <img id="sketches" src="images/sketches.jpeg" alt="Our low fidelity sketches for this web app's interactive map">
+                <figcaption>Low fidelity sketches of the interactive</figcaption>
+            </figure>
         </section>
     </main>
 </body>
