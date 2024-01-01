@@ -52,6 +52,7 @@
             <p>They do this by generating PDF “report cards” to depict environmental violations by US Congressional District. However, the data used is from outdated 2010 census data, displayed on PDFs that are difficult to understand, difficult to access, and difficult to navigate.</p>
         </section>
         <section id="solution">
+            <h2>The Solution</h2>
             <p>EDGI seeks to facilitate greater understanding and learning of environmental issues for educators, students, journalists, and informed members of the public by replacing their PDF report cards with an interactive, user-friendly data visualization platform displaying U.S. county-specific data.</p>
             <p>Our goals were to implement the following:</p>
             <ul>
@@ -62,6 +63,7 @@
             </ul>
         </section>
         <section id="user-insights">
+            <h2>Gaining user insights</h2>
             <p>To better understand the issues with the current report cards and grasp user needs, we conducted user interviews with journalists, data scientists, and professors.</p>
             <p>We gained the following key insights, which we organized into an affinity diagram below:</p>
             <ul>
@@ -75,6 +77,7 @@
             </figure>
         </section>
         <section id="competitors">
+            <h2>What works (and doesn't) for competitors?</h2>
             <p>Both myself and my partner designer had never designed an interactive map before, so identifying strengths and weaknesses in competitors was valuable to our design process.</p>
             <p>We examined two data visualization web apps with interactive maps: Environmental Working Group and California Environmental Protection Agency.</p>
             <div id="container">
@@ -105,6 +108,7 @@
             </ul>
         </section>
         <section id="brainstorming-sketches">
+            <h2>Brainstorming and Sketches</h2>
             <p>With our user and market insights in mind, we developed the information architecture.</p>
             <p>While we organized the information in similar fashion to the current PDF report cards, notable changes are:</p>
             <ul>
@@ -119,7 +123,42 @@
             <p>With this roadmap, we were able to begin exploring the general map display and interface:</p>
             <figure>
                 <img id="sketches" src="images/sketches.jpeg" alt="Our low fidelity sketches for this web app's interactive map">
-                <figcaption>Low fidelity sketches of the interactive</figcaption>
+                <figcaption>Low fidelity sketches of the interactive map</figcaption>
+            </figure>
+        </section>
+        <section id="mediumfidelity">
+            <h2>Medium Fidelity Designs</h2>
+            <p>With a clearer picture of what we were looking to design, we spent a few weeks iterating in mid-fidelity designs:</p>
+            <h3>Side Panel Explorations</h3>
+            <p class="greenitalic">How might we display each data section's contents?</p>
+            <figure>
+                <img id="sidepanel" src="images/sidepanel.png" alt="Medium fidelity side panel display explorations">
+                <figcaption>Mid fidelity explorations of side panel display</figcaption>
+            </figure>
+            <p>There were many moving pieces in our side panel iterations, from collapsibility to the number of side panels. We concluded that we would proceed with Option 2, a single panel which a user would navigate between data sections via a tab navigation, because it was simple, intuitive, and clean.</p>
+        </section>
+        <section id="highfidelity">
+            <h2>High Fidelity Designs</h2>
+            <h3>Grading Tab</h3>
+            <p class="greenitalic">How might we display a navigation bar inside of another navigation bar?</p>
+            <p>We knew we wanted to group the information within the Grading section by legislative act (CAA, CWA, and RCRA), but found the double-horizontal navigation bars to be visually unappealing. We explored different displays of this nested navigation:</p>
+            <figure>
+                <img id="gradingexplorations" src="images/gradingact.png" alt="Explorations of the grading act display">
+                <figcaption>High fidelity grading act navigation iterations</figcaption>
+            </figure>
+            <p>We decided to proceed with Option 4 because we preferred the vertical orientation of the navigation and the offshoot line to denote that the information to the right belonged to the act highlighted.</p>
+            <h3>Graph Transparency and Colors</h3>
+            <p class="greenitalic">How might we indicate data reliability in our data figures?</p>
+            <p>Although data on all three acts (CAA, CWA, RCRA) exists, not all of the data is equally reliable. As noted in the side panels, the reliability of the data varies; for example, CWA data tends to be the most reliable. Following and improving upon the PDF report cards, we changed the colors for the visualizations comparing the county to the state and nation––this would enhance the color accessibility and better highlight differences in reliability:</p>
+            <figure>
+                <img id="transparency" src="images/transparency.png" alt="Comparing the original PDF display of the 'in comparison' figures and our new 'in comparison' figure design">
+                <figcaption>Comparison of original PDF in comparison figures (left) to our new comparison figure design (right)</figcaption>
+            </figure>
+            <p class="greenitalic">How might we clarify the Noncompliance sidebar figure color indications?</p>
+            <p>One of our user interviewees mentioned confusion regarding the significance of having several different colors on the Noncompliance graphs. After sharing this with our clients, they suggested using shades to reflect intensity of violation, so we chose a single color and adjusted the shades accordingly:</p>
+            <figure>
+                <img id="color" src="images/color.png" alt="Comparing the original PDF display of the 'recent noncompliance' figures and our new 'recent noncompliance' figure design">
+                <figcaption>Comparison of original PDF recent noncompliance figure (left) to our new noncompliance figure design (right)</figcaption>
             </figure>
         </section>
     </main>
