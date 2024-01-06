@@ -66,6 +66,14 @@ footer h3 a {
     gap: 40px;
 }
 
+.icon {
+    max-width: 40px;
+}
+
+#medium {
+    max-width: 55px;
+}
+
 #header-name {
     max-width: 150px;
 }
