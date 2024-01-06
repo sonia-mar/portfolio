@@ -38,6 +38,10 @@ header a {
     align-items: center;
 }
 
+header a:hover {
+    color: #586c7e;
+}
+
 footer {
     margin-top: 32px;
     padding-top: 20px;
@@ -70,20 +74,34 @@ footer h3 a {
     max-width: 40px;
 }
 
+#links a {
+    padding: 0;
+    margin: 0;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#linkedin {
+    padding-top: 7px;
+    padding-right: 0px;
+}
+
+#email {
+    padding-top: 7px;
+    margin-left: 7px;
+}
+
 #medium {
     max-width: 55px;
 }
 
+#mediumlink {
+    width: 55px;
+    height: 55px;
+}
+
 #header-name {
     max-width: 150px;
-}
-
-#links h5 a:hover {
-    color:#586c7e;
-}
-
-#links h5 a {
-    text-decoration: underline solid 2px;
 }
 
 h1 {
@@ -157,22 +175,6 @@ nav ul {
     list-style: none;
 }
 
-#inner-nav {
-    padding-top: 32px;
-}
-
-#inner-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    padding: 0px;
-}
-
-#inner-nav ul li {
-    font-size: larger;
-    padding-bottom: 24px;
-}
-
 #projects {
     display: flex;
     flex-direction: column;
@@ -219,8 +221,9 @@ nav ul {
     margin-bottom: 20px;
 }
 
-#inner-nav ul {
-    list-style: none;
+#project-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* ABOUT PAGE */
@@ -309,4 +312,12 @@ nav ul {
 
 #collage {
     max-width: 550px;
+}
+
+#intro-text p a:hover {
+    color:#586c7e;
+}
+
+#intro-text p a {
+    text-decoration: underline;
 }
