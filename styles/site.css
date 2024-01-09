@@ -198,9 +198,13 @@ nav ul {
     font-size: 105%;
 }
 
-.project img {
+.project figure img {
     max-width: 550px;
     border-radius: 10px;
+}
+
+figure {
+    margin: 0px;
 }
 
 .project div p {
@@ -230,6 +234,7 @@ nav ul {
 
 #profile {
     max-width: 300px;
+    border-radius: 20px;
 }
 
 #about-intro {
@@ -402,5 +407,12 @@ nav ul {
     #home-welcome {
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .thumbnail img {
+        max-width: 80%;
+        width: 400px;
+    }
+    #collage {
+        max-width: 400px;
     }
 }
