@@ -358,4 +358,27 @@ nav ul {
         width: 100%;
         align-items: center;
     }
+    #home-welcome {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 1040px) {
+    #about-intro {
+        flex-direction: column;
+    }
+    #superlatives {
+        flex-direction: column;
+    }
+}
+@media (max-width: 900px) {
+    #experience-activities {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) { /* hamburger menu */
+
 }
