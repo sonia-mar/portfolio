@@ -321,3 +321,41 @@ nav ul {
 #intro-text p a {
     text-decoration: underline;
 }
+
+/* Hidden classes */
+
+.hidden {
+    display: none !important;
+}
+
+.accessible-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Media queries */
+
+@media (max-width: 1400px) {
+    /* Home */
+    .project {
+        flex-direction: column-reverse;
+    }
+    .project div {
+        max-width: 550px;
+    }
+    #project-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project div button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
