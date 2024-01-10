@@ -342,6 +342,16 @@ figure {
     overflow: hidden;
 }
 
+#hamburger-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.hamburger-menu {
+    border-radius: none;
+    cursor: pointer;
+}
+
 /* Media queries */
 
 @media (max-width: 1400px) {
