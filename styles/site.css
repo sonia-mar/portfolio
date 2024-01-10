@@ -327,6 +327,76 @@ figure {
     text-decoration: underline;
 }
 
+/* EDGI page */
+
+#edgi-main {
+    background-color: #fdfdfd;
+}
+
+#heroimg {
+    width: 80%;
+    border: 1px solid #a2d4c6;
+    margin-bottom: 20px;;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#col-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+#col1 {
+    flex-basis: 100%;
+}
+
+#col2 {
+    flex-basis: 100%;
+}
+
+#affinity-diagram, #ewg, #CalEPA, #infoarch, #sketches, #sidepanel, #gradingexplorations, #transparency, #color, #collapse, #additionalinfo, figcaption, video, #prototype, #reflection, #highfidelity, #mediumfidelity, #brainstorming-sketches, #competitors, #user-insights, #solution, #problem, #overview {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#edgi-main section {
+    padding-bottom: 60px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #767676;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+#edgi-main figure {
+    padding-top: 20px;
+}
+
+.greenitalic {
+    color: #8ab481;
+    font-size: larger;
+}
+
+video {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#reflections-list li {
+    list-style: none;
+}
+
 /* Hidden classes */
 
 .hidden {
