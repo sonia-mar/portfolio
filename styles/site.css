@@ -369,7 +369,7 @@ figure {
 }
 
 #edgi-main section {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 figcaption {
@@ -379,12 +379,17 @@ figcaption {
     padding-top: 8px;
 }
 
+#note {
+    color: #767676;
+    padding-top: 20px;
+}
+
 #edgi-main figure {
     padding-top: 20px;
 }
 
 .greenitalic {
-    color: #8ab481;
+    color: #398f26;
     font-size: larger;
 }
 
@@ -395,6 +400,18 @@ video {
 
 #reflections-list li {
     list-style: none;
+}
+
+#edgi-main section h3 {
+    padding-top: 40px;
+}
+
+.edgilink {
+    text-decoration: underline;
+}
+
+.edgilink:hover {
+    color: #586c7e;
 }
 
 /* Hidden classes */
@@ -456,11 +473,31 @@ video {
     #superlatives {
         flex-direction: column;
     }
+    #affinity-diagram, #ewg, #CalEPA, #infoarch, #sketches, #sidepanel, #gradingexplorations, #transparency, #color, #collapse, #additionalinfo, figcaption, video, #prototype, #reflection, #highfidelity, #mediumfidelity, #brainstorming-sketches, #competitors, #user-insights, #solution, #problem, #overview {
+        width: 80%;
+    }
+    #hero h1 {
+        max-width: 80%;
+        text-align: center;
+    }
 }
 @media (max-width: 900px) {
     #experience-activities {
         flex-direction: column;
         align-items: center;
+    }
+    #col1 h3 { 
+        margin: 0px;
+        padding-top: 0px !important;
+    }
+
+    #col2 h3 {
+        margin: 0px;
+        padding-top: 0px !important;
+    }
+    
+    #overview hr {
+        margin-bottom: 20px !important;
     }
 }
 
@@ -494,5 +531,12 @@ video {
     }
     #collage {
         max-width: 400px;
+    }
+}
+
+@media (max-width: 750px) {
+    #col-container {
+        flex-direction: column;
+        gap: 0px;
     }
 }
