@@ -344,13 +344,13 @@ figure {
     background-color: #fdfdfd;
 }
 
-#heroimg {
+.heroimg {
     width: 80%;
     border: 1px solid #a2d4c6;
     margin-bottom: 20px;;
 }
 
-#hero {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,7 +448,7 @@ video {
     font-size: smaller;
 }
 
-#hero {
+.hero {
     padding-bottom: 0px !important;
 }
 
@@ -522,7 +522,7 @@ video {
     #affinity-diagram, #ewg, #CalEPA, #infoarch, #sketches, #sidepanel, #gradingexplorations, #transparency, #color, #collapse, #additionalinfo, figcaption, video, #prototype, #reflection, #highfidelity, #mediumfidelity, #brainstorming-sketches, #competitors, #user-insights, #solution, #problem, #overview {
         width: 80%;
     }
-    #hero h1 {
+    .hero h1 {
         max-width: 80%;
         text-align: center;
     }
