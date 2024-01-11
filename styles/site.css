@@ -578,5 +578,11 @@ video {
     #collage {
         max-width: 400px;
     }
-    
+    #nav-menu ul {
+        flex-direction: column;
+    }
+    #nav-container {
+        display:flex;
+        flex-direction: column;
+    }
 }

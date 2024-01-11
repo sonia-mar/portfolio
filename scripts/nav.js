@@ -12,7 +12,7 @@ $(window).on('resize', function() {
 
 $(document).ready(function() {
     // Narrowest screens:
-    if (window.matchMedia('(max-width: 910px)').matches) {
+    if (window.matchMedia('(max-width: 900px)').matches) {
         $('#hamburger-menu').removeClass('accessible-hidden');
         $('#nav-menu').addClass('accessible-hidden');
     }
