@@ -414,6 +414,26 @@ video {
     color: #586c7e;
 }
 
+#edgi-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#edgi-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#edgi-nav ul li {
+    list-style: none;
+    text-decoration: underline;
+}
+
 /* Hidden classes */
 
 .hidden {
