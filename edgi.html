@@ -57,13 +57,13 @@
         <section id="problem">
             <h2>The Problem</h2>
             <hr>
-            <p>The EPA is supposed to perform routine checks on facilities throughout the US and penalize those who fail to meet environmental standards. However, many industries tend to commit more environmental violations than others. EDGI analyzes data from facilities in these industries to understand the extent of EPA violations.</p>
-            <p>They do this by generating PDF “report cards” to depict environmental violations by US Congressional District. However, the data used is from outdated 2010 census data, displayed on PDFs that are difficult to understand, difficult to access, and difficult to navigate.</p>
+            <p>The EPA is supposed to perform routine checks on facilities throughout the US and penalize those who fail to meet environmental standards. However, many industries tend to commit more environmental violations than others. EDGI analyzes data from facilities in these industries to understand the extent of EPA violations.</p>
+            <p>They do this by generating PDF “report cards” to depict environmental violations by US Congressional District. <strong>However</strong>, the data used is from outdated 2010 census data, displayed on PDFs that are <strong>difficult to understand</strong>, <strong>difficult to access</strong>, and <strong>difficult to navigate</strong>.</p>
         </section>
         <section id="solution">
             <h2>The Solution</h2>
             <hr>
-            <p>EDGI seeks to facilitate greater understanding and learning of environmental issues for educators, students, journalists, and informed members of the public by replacing their PDF report cards with an interactive, user-friendly data visualization platform displaying U.S. county-specific data.</p>
+            <p>EDGI seeks to facilitate greater understanding and learning of environmental issues for educators, students, journalists, and informed members of the public by replacing their PDF report cards with an <strong>interactive</strong>, <strong>user-friendly data visualization platform displaying U.S. county-specific data</strong>.</p>
             <p>Our goals were to implement the following:</p>
             <ul>
                 <li>An interactive map with clickable and searchable states / counties, along with facility markers</li>
@@ -78,9 +78,9 @@
             <p>To better understand the issues with the current report cards and grasp user needs, we conducted user interviews with journalists, data scientists, and professors.</p>
             <p>We gained the following key insights, which we organized into an affinity diagram below:</p>
             <ul>
-                <li>Users want clear and easy access to information for understanding the data, whether it be metadata or contacting an expert.</li>
-                <li>Users find it helpful to see key points and explanations that supplement data visualizations.</li>
-                <li>Users (mainly journalists) want to be able to access and download raw data so their newsrooms can create their own visualizations.</li>
+                <li>Users want <strong>clear and easy access</strong> to information for <strong>understanding the data</strong>, whether it be metadata or contacting an expert.</li>
+                <li>Users find it helpful to see <strong>key points and explanations</strong> that supplement data visualizations.</li>
+                <li>Users (mainly journalists) want to be able to <strong>access and download raw data</strong> so their newsrooms can create their own visualizations.</li>
             </ul>
             <figure>
                 <img id="affinity-diagram" src="images/affinity diagram.png" alt="User research affinity diagram">
@@ -106,14 +106,14 @@
                     </figure>
                 </div>
             </div>
-            <p>We identified the following strengths:</p>
+            <p>We identified the following <strong>strengths</strong>:</p>
             <ul>
                 <li>User guide upon page landing that can be reopened</li>
                 <li>Search for a region (state or county)</li>
                 <li>Side panel with data and supplemental analysis</li>
                 <li>Clickable circles denote facilities and clusters of facilities</li>
             </ul>
-            <p>We also noted the following weaknesses:</p>
+            <p>We also noted the following <strong>weaknesses</strong>:</p>
             <ul>
                 <li>Convoluted steps to access data</li>
                 <li>Repetitive information on every side panel</li>
@@ -149,7 +149,7 @@
                 <img id="sidepanel" src="images/sidepanel.png" alt="Medium fidelity side panel display explorations">
                 <figcaption>Mid fidelity explorations of side panel display</figcaption>
             </figure>
-            <p>There were many moving pieces in our side panel iterations, from collapsibility to the number of side panels. We concluded that we would proceed with Option 2, a single panel which a user would navigate between data sections via a tab navigation, because it was simple, intuitive, and clean.</p>
+            <p>There were many moving pieces in our side panel iterations, from collapsibility to the number of side panels. We concluded that we would proceed with <strong>Option 2</strong>, a single panel which a user would navigate between data sections via a tab navigation, because it was simple, intuitive, and clean.</p>
         </section>
         <section id="highfidelity">
             <h2>High Fidelity Designs</h2>
@@ -161,7 +161,7 @@
                 <img id="gradingexplorations" src="images/gradingact.png" alt="Explorations of the grading act display">
                 <figcaption>High fidelity grading act navigation iterations</figcaption>
             </figure>
-            <p>We decided to proceed with Option 4 because we preferred the vertical orientation of the navigation and the offshoot line to denote that the information to the right belonged to the act highlighted.</p>
+            <p>We decided to proceed with <strong>Option 4</strong> because we preferred the vertical orientation of the navigation and the offshoot line to denote that the information to the right belonged to the act highlighted.</p>
             <h3>Graph Transparency and Colors</h3>
             <p class="greenitalic">How might we indicate data reliability in our data figures?</p>
             <p>Although data on all three acts (CAA, CWA, RCRA) exists, not all of the data is equally reliable. As noted in the side panels, the reliability of the data varies; for example, CWA data tends to be the most reliable. Following and improving upon the PDF report cards, we changed the colors for the visualizations comparing the county to the state and nation––this would enhance the color accessibility and better highlight differences in reliability:</p>
@@ -182,7 +182,7 @@
                 <img id="collapse" src="images/collapse.png" alt="High fidelity explorations for sidebar interactivity">
                 <figcaption>High fidelity explorations for sidebar interactivity</figcaption>
             </figure>
-            <p>We ended up choosing Option 3; the placement of the collapse icon in Options 1 and 2 were a bit awkward, and we were unsure where an expand button would go after collapsing the panel. With Option 3, however, the button at the side of the panel would remain visible whether the panel is hidden or shown.</p>
+            <p>We ended up choosing <strong>Option 3</strong>; the placement of the collapse icon in Options 1 and 2 were a bit awkward, and we were unsure where an expand button would go after collapsing the panel. With Option 3, however, the button at the side of the panel would remain visible whether the panel is hidden or shown.</p>
             <h3>Adding Additional Information</h3>
             <p class="greenitalic">How might we differentiate the additional information anchor navigation to avoid confusion?</p>
             <p>The additional information contains all of the indexes, tables, and background on the county data reports project. The PDF version of these sections is very difficult to read and navigate, so we decided to implement an anchor navigation that would scroll to a section upon a user's click, as well as a more effective heading and subheading system.</p>
@@ -190,7 +190,7 @@
                 <img id="additionalinfo" src="images/additionalinfo.png" alt="High fidelity anchor navigation explorations">
                 <figcaption>High fidelity anchor navigation explorations</figcaption>
             </figure>
-            <p>At first, we were using EDGI's current design for their navigation between pages (Option 1), but we realized that would be confusing for the user, because the navigation we are implementing above has a different function (scrolling to a section on the same page). We went with Option 2 instead.</p>
+            <p>At first, we were using EDGI's current design for their navigation between pages (Option 1), but we realized that would be confusing for the user, because the navigation we are implementing above has a different function (scrolling to a section on the same page). We went with <strong>Option 2</strong> instead.</p>
         </section>
         <section id="prototype">
             <h3>Final Prototype</h3>
@@ -244,13 +244,13 @@
             <p>This was my first design project, both on Hack4Impact and personally. This was also a 0 to 100 project, so I was able to experience all of the stages of the design process. I am so thankful for this incredible and fulfilling opportunity; I have learned an immense amount from my work on this project. While it is difficult to summarize my growth in a few points, here are some key takeaways I acquired from my work on this project:</p>
             <ul id="reflections-list">
                 <li>⭐️ <strong>Working with another designer</strong>
-                    <p>This was my first collaborative project; I had no experience working with another designer before. We often had different designs in mind for the web app, whether it be about the additional information navigation bar or the grading tab display. Being in a designer duo on this project taught me the importance of considering other perspectives and ideas. Very often, the product of multiple minds is greater than the sum of those minds’ individual products.</p>
+                    <p>This was my first collaborative project; I had no experience working with another designer before. We often had different designs in mind for the web app, whether it be about the additional information navigation bar or the grading tab display. Being in a designer duo on this project taught me the importance of <strong>considering other perspectives and ideas</strong>. Very often, the product of multiple minds is greater than the sum of those minds’ individual products.</p>
                 </li>
                 <li>⭐️ <strong>Being mindful of developer feasibility</strong>
-                    <p>As this project was entirely contributed to by university students, there are certain features we initially designed that are not feasible to implement developer-wise. With this also being my first project working with developers, I learned to balance advocating for the user and keeping feasibility in mind.</p>
+                    <p>As this project was entirely contributed to by university students, there are certain features we initially designed that are not feasible to implement developer-wise. With this also being my first project working with developers, I learned to <strong>balance advocating for the user and keeping feasibility in mind</strong>.</p>
                 </li>
                 <li>⭐️ <strong>Prioritizing certain features</strong>
-                    <p>There were many features we wanted to implement that we simply did not have time for, such as an ability to download SVGs of the figures, since that was a key insight in our user interviews with journalists. However, because all of our team were also full-time students and many were newly inducted to the Hack4Impact project team, including myself, we had to prioritize certain features over others.</p>
+                    <p>There were many features we wanted to implement that we simply did not have time for, such as an ability to download SVGs of the figures, since that was a key insight in our user interviews with journalists. However, because all of our team were also full-time students and many were newly inducted to the Hack4Impact project team, including myself, we had to <strong>prioritize certain features over others</strong>.</p>
                 </li>
             </ul>
             <br>
