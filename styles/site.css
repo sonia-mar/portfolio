@@ -428,13 +428,13 @@ video {
     color: #586c7e;
 }
 
-#edgi-nav {
+.page-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#edgi-nav ul {
+.page-nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -445,7 +445,7 @@ video {
     max-width: 80%;
 }
 
-#edgi-nav ul li {
+.page-nav ul li {
     list-style: none;
     text-decoration: underline;
     font-size: smaller;
@@ -453,6 +453,36 @@ video {
 
 .hero {
     padding-bottom: 0px !important;
+}
+
+/* County Wealth Page */
+
+#countymain {
+    background-color: #fdfdfd;
+}
+
+#county-overview, #research-question, #githublink, #conclusions, #county-reflection {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#research-question {
+    font-style: italic;
+    padding: 12px;
+    border: 2px solid #004483;
+}
+
+#countymain section {
+    padding-bottom: 40px;
+}
+
+#countynote {
+    font-style: italic;
+}
+
+#conclusions h3 {
+    font-size: smaller;
 }
 
 /* Hidden classes */
