@@ -518,6 +518,10 @@ video {
     background-color: #e2efff !important;
 }
 
+#nav-menu .active {
+    text-decoration: underline;
+}
+
 /* Media queries */
 
 @media (max-width: 1400px) {
