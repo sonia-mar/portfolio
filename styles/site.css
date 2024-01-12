@@ -49,6 +49,15 @@ header a:hover {
     justify-content: space-between;
 }
 
+#mobile-header figure {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#mobile-header {
+    padding: 0;
+}
+
 footer {
     margin-top: 32px;
     padding-top: 20px;
@@ -77,34 +86,25 @@ footer h3 a {
     gap: 40px;
 }
 
-.icon {
+#emailicon, #emailclicked, #linkedinicon, #linkedinclicked {
     max-width: 40px;
+}
+
+#mediumicon, #mediumclicked {
+    width: 55px;
+    padding-left: 7px;
+    margin-bottom: 4px;
 }
 
 #links a {
     padding: 0;
     margin: 0;
-    max-width: 40px;
-    max-height: 40px;
-}
-
-#linkedin {
-    padding-top: 7px;
-    padding-right: 0px;
-}
-
-#email {
-    padding-top: 7px;
-    margin-left: 7px;
-}
-
-#medium {
     max-width: 55px;
+    max-height: 55px;
 }
 
-#mediumlink {
-    width: 55px;
-    height: 55px;
+#links {
+    align-items: center;
 }
 
 #header-name {
