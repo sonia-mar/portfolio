@@ -159,14 +159,17 @@ button {
 }
 
 button a {
-    padding-right: 24px;
-    padding-left: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 16px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 button :hover {
+    padding-left: 24px;
+    padding-right: 24px;
     background-color: #004483;
     color: #fdfdfd;
     border: 0px;
@@ -390,7 +393,7 @@ figcaption {
     padding-top: 8px;
 }
 
-#note {
+.note {
     color: #767676;
     padding-top: 20px;
 }
@@ -506,6 +509,13 @@ video {
         width: 100%;
         align-items: center;
     }
+    
+    .project div button a {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
     #home-welcome {
         padding-left: 150px;
         padding-right: 150px;
